@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444;
+    color: #C7C7C7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #C7C7C7;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.jours_restants {
+    /* float: right; */
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 18px;
+    /* color: #FF9800; */
+}
+
+.joueur_stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 0px 30px;
+}
+
+.stat_bar {
+    padding-bottom: 15px;
+}
+
+.etat_maison {
+    padding-left: 30px;
+        padding-top: 15px;
+
+}
+
+.actions {
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.actions button , .bouton_fin button {
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #C7C7C7;
+}
+
+.bouton_fin {
+    text-align: center;
+    margin: 20px;
+}
+
+.barres {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 20px;
+/* border: 1px solid red; */
+}
+
+
+.barre_parent {
+    display: flex;
+    margin-left: auto; 
+    width: 200px;
+    background-color: #555;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 16px;
+    margin-top: 5px;
+}
+
+.barre_sante , .barre_energie , .barre_faim , .barre_materiaux {
+    height: 100%;
+}
+
+.barre_sante {
+    background-color: #4CAF50;
+}
+
+.barre_energie {
+    background-color: #e5f321;
+}
+
+.barre_faim {
+    background-color: #FF9800;
+}
+
+.barre_materiaux {
+    background-color: #9E9E9E;
+}
+
+.barre_maison {
+    background-color: #2196F3;
+}
+
+.conseil {
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #C7C7C7;
+    height: 30px;
+}
